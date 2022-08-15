@@ -144,8 +144,8 @@ fun shouldShowLocationIndicators(): Boolean {
  * Whether the location accuracy feature is enabled
  */
 fun isLocationAccuracyEnabled(): Boolean {
-    return DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
-        PROPERTY_LOCATION_ACCURACY_ENABLED, true)
+    return true /* DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
+        PROPERTY_LOCATION_ACCURACY_ENABLED, true) */
 }
 
 /**
